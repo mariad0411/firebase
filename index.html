@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>FIREBASE</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase.js"></script>
+</head>
+<body>
+
+    <form class="formulario">
+        <input type="text" id="taskInput">
+        <button onclick="addTaskbase()"> Add</button>
+        <button onclick="delletetask()">Delete</button>
+    
+        <ul id="taskContainer">
+            <li></li>
+        </ul>
+        </form>
+    
+</body>
+<script src="firebase.js"></script>
+</html>
